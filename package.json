@@ -1,0 +1,13 @@
+{
+  "name": "mono",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*",
+    "features/*"
+  ],
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}

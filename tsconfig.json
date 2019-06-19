@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "experimentalDecorators": true,
+    "diagnostics": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "paths": {
+      "@mono/*": [
+        "packages/*"
+      ]
+    },
+  }
+}

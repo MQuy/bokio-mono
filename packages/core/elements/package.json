@@ -2,6 +2,8 @@
   "name": "@mono/elements",
   "version": "0.0.1",
   "dependencies": {
-    "lodash": "4.17.11"
+    "@types/react": "16.8.23",
+    "lodash": "4.17.11",
+    "react": "16.8.6"
   }
 }

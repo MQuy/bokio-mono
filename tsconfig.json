@@ -22,7 +22,7 @@
     "incremental": true,
     "paths": {
       "@mono/*": [
-        "packages/*"
+        "packages/core/*"
       ]
     },
   }
